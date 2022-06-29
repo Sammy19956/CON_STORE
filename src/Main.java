@@ -5,7 +5,7 @@ import Model.Customer;
 
 public class Main {
     public static void main(String[] args) {
-        Manager John = new Manager();
+        Manager John = new Manager("John");
         System.out.println(John.hire_cashier());
 
         Customer one = new Customer(234);
